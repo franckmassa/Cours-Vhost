@@ -22,6 +22,8 @@ Ensuite on va se rendre dans le dossier des Vhost d'Apache :
 
         cd /etc/apache2/sites-available/
 Nous allons maintenant créer un nouveau fichier de configuration avec l'éditeur Nano :
+
+
         nano monProjet.conf
 Dans Nano coller ce code :
 
