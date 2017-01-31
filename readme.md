@@ -27,18 +27,18 @@ Dans Nano coller ce code :
 
 
         <VirtualHost *:80>
-        ServerAdmin webmaster@monProjet
-        ServerName www.monProjet
-        ServerAlias monProjet
-        DocumentRoot /home/nom_utilisateur/www/monProjet
-        <Directory /home/nom_utilisateur/www/monProjet/>
-        AllowOverride All
-        Require all granted
-        </Directory>
-        ErrorLog /var/log/apache2/monProjet-error.log
-        LogLevel warn
-        CustomLog  /var/log/apache2/monProjet-access.log combined
-        ServerSignature Off
+          ServerAdmin webmaster@monProjet
+          ServerName www.monProjet
+          ServerAlias monProjet
+          DocumentRoot /home/nom_utilisateur/www/monProjet
+          <Directory /home/nom_utilisateur/www/monProjet/>
+            AllowOverride All
+            Require all granted
+          </Directory>
+          ErrorLog /var/log/apache2/monProjet-error.log
+          LogLevel warn
+          CustomLog  /var/log/apache2/monProjet-access.log combined
+          ServerSignature Off
         </VirtualHost>
 
 **Important : ** Pensez bien à modifier **nom_utilisateur** par votre nom d'utilisateur. Cette configuration est minimal. Elle n'est pas à reproduire en production.  
