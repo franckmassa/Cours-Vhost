@@ -41,7 +41,7 @@ Dans Nano coller ce code :
           ServerSignature Off
         </VirtualHost>
 
-**Important : ** Pensez bien à modifier **nom_utilisateur** par votre nom d'utilisateur. Cette configuration est minimal. Elle n'est pas à reproduire en production.  
+**Important :** Pensez bien à modifier **nom_utilisateur** par votre nom d'utilisateur. Cette configuration est minimal. Elle n'est pas à reproduire en production.  
 Sauvegardez puis activez ce nouveau Vhost :
 
 
