@@ -6,7 +6,7 @@ Toutes les commandes seront à faire dans le terminal.
 
 ## Création du dossier de travail
 Nous allons créer un dossier pour le projet dans un dossier **www** qui se trouvera dans notre dossier utilisateur (*par ex : /home/mickael/www*).
-** Rappel :** L'alias ~ correspond au dossier utilisateur.
+ **Rappel :** L'alias ~ correspond au dossier utilisateur.
 
 
     mkdir ~/www/monProjet
@@ -43,7 +43,7 @@ Dans Nano coller ce code :
           ServerSignature Off
         </VirtualHost>
 
-** Important :** Pensez bien à modifier **nom_utilisateur** par votre nom d'utilisateur. Cette configuration est minimal. Elle n'est pas à reproduire en production.  
+ **Important :** Pensez bien à modifier **nom_utilisateur** par votre nom d'utilisateur. Cette configuration est minimal. Elle n'est pas à reproduire en production.  
 Sauvegardez puis activez ce nouveau Vhost :
 
 
