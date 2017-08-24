@@ -54,7 +54,7 @@ Relancez la configuration d'Apache :
         service apache2 reload
 
 
-##Configuration du fichier hosts
+## Configuration du fichier hosts
 Le Vhost étant créé, il faut maintenant dire à notre ordinateur que http://monProjet dirige vers notre machine et pas sur le web. Pour ce faire il faut éditer le fichier hosts.
 
 
@@ -68,5 +68,5 @@ Après la ligne qui commence par 127.0.1.1 ajoutez :
         127.0.0.1 monProjet
 
 
-##Conclusion
+## Conclusion
 A partir de là vous pouvez afficher la page dans **Firefox** avec l'adresse : http://monProjet
