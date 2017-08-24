@@ -1,10 +1,10 @@
-#Cours Apache
-##Création d'un Vhost
+# Cours Apache
+## Création d'un Vhost
 Dans ce cours nous allons voir comment créer un Vhost sur notre propre machine. Le nom du projet et du Vhost sera **monProjet**.  
 Toutes les commandes seront à faire dans le terminal.
 
 
-##Création du dossier de travail
+## Création du dossier de travail
 Nous allons créer un dossier pour le projet dans un dossier **www** qui se trouvera dans notre dossier utilisateur (*par ex : /home/mickael/www*).
 **Rappel :** L'alias ~ correspond au dossier utilisateur.
 
@@ -12,7 +12,7 @@ Nous allons créer un dossier pour le projet dans un dossier **www** qui se trou
     mkdir ~/www/monProjet
 
 
-##Création du Vhost
+## Création du Vhost
 Pour la création du Vhost, il faut configurer Apache. Toutes les commandes suivantes seront à faire en super utilisateur.
 
 
